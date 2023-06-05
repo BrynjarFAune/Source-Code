@@ -1,0 +1,52 @@
+.content {
+	margin-top: 10vh;
+}
+main {
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	align-items: center;
+	min-height: 100vh;
+	margin-top: 10vh;
+}
+.success {
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	align-items: center;
+	/* min-height: 100vh; */
+	margin-top: 5vh;
+	/* space evenly */
+	justify-content: space-evenly;
+	text-align: center;
+	line-height: 2vh;
+}
+.filler {
+	max-height: 100vh;
+	min-height: 5vh;
+}
+.title h1 {
+	font-size: 64px;
+	color: rgb(17, 17, 17);
+}
+
+.btn {
+	font-family: 'Abril Fatface', cursive;
+	color: #fbfbfd;
+	background-color: #023ea5;
+	font-size: small;
+	padding: 0.8vh;
+	text-decoration: none;
+	border-radius: 15px;
+}
+.btn:hover {
+	background-color: #003aa1;
+}
+
+.success img {
+	height: 25px;
+}
+
+.success h2 {
+	font-size: 25px;
+}

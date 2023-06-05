@@ -1,0 +1,57 @@
+/* flexbox */
+.map-container {
+	display: flex;
+	justify-content: center;
+	height: 50vh;
+	margin-bottom: 10vh;
+}
+.map {
+	height: 100%;
+	width: 50%;
+	border-radius: 2%;
+	box-shadow: 0 0 5px 0 #333333;
+}
+
+/* felles */
+.content {
+	max-width: 1024px;
+	min-height: 200px;
+	margin: 0 auto;
+	padding: 0 20px;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.content h1 {
+	font-size: 64px;
+	margin-bottom: 0;
+	color: #111111;
+}
+
+@media (max-width: 960px) {
+	.content h1 {
+		font-size: 48px;
+	}
+}
+
+/* main content */
+
+.filler {
+	min-height: 15vh;
+}
+
+/* footer */
+footer {
+	background-color: #023ea5;
+	color: #fafafa;
+}
+.footer-content {
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+.logo-text a {
+	color: #fafafa;
+	text-decoration: none;
+}
